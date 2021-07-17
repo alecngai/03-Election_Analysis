@@ -16,9 +16,9 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 The analysis of the election show that: 
 - There were "x" votes cast in the election. 
 - The candidates were:
-    - Candidate 1
-    - Candidate 2
-    - Candidate 3
+    - Charles Casper Stockham
+    - Diana DeGette
+    - Raymon Anthony Doane
 - The candidate results were:
     - Candidate 1 recieved "x%" of the vote and "y" number of votes
     - Candidate 2 recieved "x%" of the vote and "y" number of votes
