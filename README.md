@@ -16,27 +16,27 @@
 
 ## Summary
 The analysis of the election show that: 
-- There were "369,711" votes cast in the election. 
+- There were **"369,711"** votes cast in the election. 
 - The counties were:
     - **Jefferson**
     - **Denver**
     - **Arapahoe**
 - The counties results were:
-    - **Jefferson** recieved "10.5%" of the vote and "38,855" number of votes
-    - **Denver** recieved "82.8%" of the vote and "306,055" number of votes
-    - **Arapahoe** recieved "6.7%" of the vote and "24,801" number of votes
+    - **Jefferson** recieved **"10.5%"** of the vote and **"38,855"** number of votes
+    - **Denver** recieved **"82.8%"** of the vote and **"306,055"** number of votes
+    - **Arapahoe** recieved **"6.7%"** of the vote and **"24,801"** number of votes
 - The largest county turnout was:
-    - **Denver** recieved "82.8%" of the vote and "306,055" number of votes
+    - **Denver** recieved **"82.8%"** of the vote and **"306,055"** number of votes
 - The candidates were:
     - **Charles Casper Stockham**
     - **Diana DeGette**
     - **Raymon Anthony Doane**
 - The candidate results were:
-    - **Charles Casper Stockham** recieved "23.0%" of the vote and "85,213" number of votes
-    - **Diana DeGette recieved** recieved "73.8%" of the vote and "272,892" number of votes
-    - **Raymon Anthony Doane** recieved "3.1%" of the vote and "11,606" number of votes
+    - **Charles Casper Stockham** recieved **"23.0%"** of the vote and **"85,213"** number of votes
+    - **Diana DeGette recieved** recieved **"73.8%"** of the vote and **"272,892"** number of votes
+    - **Raymon Anthony Doane** recieved **"3.1%"** of the vote and **"11,606"** number of votes
 - The winner of the election was:
-    - **Diana DeGette**, who received "73.8%" of the vote and "272,892" number of votes.
+    - **Diana DeGette**, who received **"73.8%"** of the vote and **"272,892"** number of votes.
 
 ## Challenge Overview
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this challenge, we were given a pre-made Python file, where we had to add onto it, functionality of finding the counties and their specific vote counts to determin which county had the biggest turnout. 
@@ -69,7 +69,7 @@ The analysis of the election show that:
 
 1) The data must be in a CSV file format and have the same data format i.e. (Ballot ID,  County, Candidate), and the path to the CSV File must be the same as the path for the variable file_to_load, the output does not matter in this sense. 
 
-![GrabbingData](https://github.com/alecngai/03-Election_Analysis/blob/main/Resources/Code_GrabbingCounty.png)
+![GrabbingData](https://github.com/alecngai/03-Election_Analysis/blob/main/Resources/Code_GrabbingData.png)
 
 2) If the data format is different, we must edit two statements, and find the correct index value for where the data is stored.         
 
