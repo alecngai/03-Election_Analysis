@@ -59,6 +59,18 @@ The analysis of the election show that:
 
 ![AnalysisOutput]
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We then do the analysis of the votes to determin which county has the best turnout, we then have our winning_county, and winning_county_count, which are temporary storage variables we will overwrite with the highest count county. We then output to terminal, and also write to the TXT.
 
 ## Challenge Summary
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This script is very verstile as long as certain conditions are met. 
+
+![FileToLoad]
+
+1) The data must be in a CSV file format and have the same data format i.e. (Ballot ID,  County, Candidate), and the path to the CSV File must be the same as the path for the variable file_to_load, the output does not matter in this sense. 
+
+![GrabbingCounty]
+
+2) If the data format is different, we must edit two statements, and find the correct index value for where the data is stored.         
+
+3) We must assume the data is clean, due to the way we wrote our code the data does not need to be sorted, however certain variables must be consistant, County & Candidate names must be the exact same case and same spelling, otherwise there will be duplicates due to the fact the code does not account for variations of spelling or capitilzation. 
