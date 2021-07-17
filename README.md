@@ -19,7 +19,7 @@ The analysis of the election show that:
 - There were "369,711" votes cast in the election. 
 - The counties were:
     - **Jefferson**
-    -**Denver**
+    - **Denver**
     - **Arapahoe**
 - The counties results were:
     - **Jefferson** recieved "10.5%" of the vote and "38,855" number of votes
@@ -41,23 +41,23 @@ The analysis of the election show that:
 ## Challenge Overview
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this challenge, we were given a pre-made Python file, where we had to add onto it, functionality of finding the counties and their specific vote counts to determin which county had the biggest turnout. 
 
-![Intalize]
+![Intalize](https://github.com/alecngai/03-Election_Analysis/blob/main/Resources/Code_Initialize.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To do this we intialized one list **county_options** and a dict **county_votes**, these will be used to store the data we gather from the main CSV.
 
-![Intalize2]
+![Intalize2](https://github.com/alecngai/03-Election_Analysis/blob/main/Resources/Code_Initialize2.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To do this we intialized one list **winning_county** and a dict **winning_county_count**, these will be used to store the data we gather from the main CSV.
 
-![GrabbingCounty]
+![GrabbingCounty](https://github.com/alecngai/03-Election_Analysis/blob/main/Resources/Code_GrabbingCounty.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We just do a simple assignment of the row[1] into county_name variable, which will later be appended. The **for** loop will loop through the entire CSV which the county per row is stored in row[1]. We assign it to a variable just for it to be easier to read for the user. 
 
-![GrabbingVotes]
+![GrabbingVotes](https://github.com/alecngai/03-Election_Analysis/blob/main/Resources/Code_GrabbingVotes.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Here we do an if statement to check if the county name exists within our list or not, if it is not in the list of counties, we add it to our list, then we also intialize the tracking for the vote. Afterwards we add a vote for that county. 
 
-![AnalysisOutput]
+![AnalysisOutput](https://github.com/alecngai/03-Election_Analysis/blob/main/Resources/Code_AnalysisOutput.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We then do the analysis of the votes to determin which county has the best turnout, we then have our winning_county, and winning_county_count, which are temporary storage variables we will overwrite with the highest count county. We then output to terminal, and also write to the TXT.
 
@@ -65,11 +65,11 @@ The analysis of the election show that:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This script is very verstile as long as certain conditions are met. 
 
-![FileToLoad]
+![FileToLoad](https://github.com/alecngai/03-Election_Analysis/blob/main/Resources/Code_FileToLoad.png)
 
 1) The data must be in a CSV file format and have the same data format i.e. (Ballot ID,  County, Candidate), and the path to the CSV File must be the same as the path for the variable file_to_load, the output does not matter in this sense. 
 
-![GrabbingCounty]
+![GrabbingCounty](https://github.com/alecngai/03-Election_Analysis/blob/main/Resources/Code_GrabbingCounty.png)
 
 2) If the data format is different, we must edit two statements, and find the correct index value for where the data is stored.         
 
