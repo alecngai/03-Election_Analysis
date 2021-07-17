@@ -69,7 +69,7 @@ The analysis of the election show that:
 
 1) The data must be in a CSV file format and have the same data format i.e. (Ballot ID,  County, Candidate), and the path to the CSV File must be the same as the path for the variable file_to_load, the output does not matter in this sense. 
 
-![GrabbingCounty](https://github.com/alecngai/03-Election_Analysis/blob/main/Resources/Code_GrabbingCounty.png)
+![GrabbingData](https://github.com/alecngai/03-Election_Analysis/blob/main/Resources/Code_GrabbingCounty.png)
 
 2) If the data format is different, we must edit two statements, and find the correct index value for where the data is stored.         
 
